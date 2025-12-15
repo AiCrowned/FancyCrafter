@@ -50,16 +50,6 @@ const Header = () => {
                         >
                             About
                         </a>
-                        <motion.a
-                            href="https://github.com/AiCrowned/FancyCrafter"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="px-4 py-2 text-sm font-medium rounded-lg bg-gradient-to-r from-purple-500 to-blue-500 text-white hover:opacity-90 transition-opacity"
-                            whileHover={{ scale: 1.05 }}
-                            whileTap={{ scale: 0.95 }}
-                        >
-                            GitHub
-                        </motion.a>
                     </nav>
 
                     {/* Mobile Menu Button */}
@@ -92,14 +82,6 @@ const Header = () => {
                             onClick={() => setMobileMenuOpen(false)}
                         >
                             About
-                        </a>
-                        <a
-                            href="https://github.com/AiCrowned/FancyCrafter"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="px-4 py-2 text-sm font-medium rounded-lg bg-gradient-to-r from-purple-500 to-blue-500 text-white text-center"
-                        >
-                            GitHub
                         </a>
                     </motion.nav>
                 )}
